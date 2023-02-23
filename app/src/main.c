@@ -30,8 +30,7 @@ main_scrcpy(int argc, char *argv[]) {
     setbuf(stderr, NULL);
 #endif
 
-    printf("scrcpy " SCRCPY_VERSION
-           " <https://github.com/Genymobile/scrcpy>\n");
+    printf("intializing mantle cli");
 
     struct scrcpy_cli_args args = {
         .opts = scrcpy_options_default,
