@@ -1,8 +1,18 @@
-# scrcpy (v1.25)
+# MANTLE
 
-<img src="app/data/icon.svg" width="128" height="128" alt="scrcpy" align="right" />
+### DEVELOPMENT
 
-_pronounced "**scr**een **c**o**py**"_
+Build
+```
+meson setup x --buildtype=release --strip -Db_lto=true
+ninja -Cx  # DO NOT RUN AS ROOT
+```
+commit build folder
+
+`git add x/ -f`
+
+Use the binary at https://github.com/i-vanished/scrcpy/tree/main/x/app
+
 
 [Read in another language](#translations)
 
