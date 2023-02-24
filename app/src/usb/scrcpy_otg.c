@@ -156,7 +156,7 @@ scrcpy_otg(struct scrcpy_options *options) {
 
     const char *window_title = options->window_title;
     if (!window_title) {
-        window_title = usb_device.product ? usb_device.product : "scrcpy";
+        window_title = "mantle";
     }
 
     struct sc_screen_otg_params params = {

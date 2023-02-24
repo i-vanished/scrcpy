@@ -30,7 +30,7 @@ main_scrcpy(int argc, char *argv[]) {
     setbuf(stderr, NULL);
 #endif
 
-    printf("intializing mantle cli");
+    printf("Initializing Mantle...");
 
     struct scrcpy_cli_args args = {
         .opts = scrcpy_options_default,

@@ -74,7 +74,7 @@ public final class Ln {
     public static void e(String message, Throwable throwable) {
         if (isEnabled(Level.ERROR)) {
             Log.e(TAG, message, throwable);
-            System.out.println(PREFIX + "ERROR: " + message);
+            System.out.println("MANTLE: " + "ERROR: " + message);
             if (throwable != null) {
                 throwable.printStackTrace();
             }

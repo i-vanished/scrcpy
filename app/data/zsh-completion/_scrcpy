@@ -1,8 +1,7 @@
 #compdef -N scrcpy -N scrcpy.exe
 #
-# name: scrcpy
-# auth: hltdev [hltdev8642@gmail.com]
-# desc: completion file for scrcpy (all OSes)
+# name: mantle
+# desc: completion file for mantle (all OSes)
 #
 
 local arguments
