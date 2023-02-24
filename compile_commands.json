@@ -1,0 +1,308 @@
+[
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_main.c.o -MF app/scrcpy.p/src_main.c.o.d -o app/scrcpy.p/src_main.c.o -c ../app/src/main.c",
+    "file": "../app/src/main.c",
+    "output": "app/scrcpy.p/src_main.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_adb_adb.c.o -MF app/scrcpy.p/src_adb_adb.c.o.d -o app/scrcpy.p/src_adb_adb.c.o -c ../app/src/adb/adb.c",
+    "file": "../app/src/adb/adb.c",
+    "output": "app/scrcpy.p/src_adb_adb.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_adb_adb_device.c.o -MF app/scrcpy.p/src_adb_adb_device.c.o.d -o app/scrcpy.p/src_adb_adb_device.c.o -c ../app/src/adb/adb_device.c",
+    "file": "../app/src/adb/adb_device.c",
+    "output": "app/scrcpy.p/src_adb_adb_device.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_adb_adb_parser.c.o -MF app/scrcpy.p/src_adb_adb_parser.c.o.d -o app/scrcpy.p/src_adb_adb_parser.c.o -c ../app/src/adb/adb_parser.c",
+    "file": "../app/src/adb/adb_parser.c",
+    "output": "app/scrcpy.p/src_adb_adb_parser.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_adb_adb_tunnel.c.o -MF app/scrcpy.p/src_adb_adb_tunnel.c.o.d -o app/scrcpy.p/src_adb_adb_tunnel.c.o -c ../app/src/adb/adb_tunnel.c",
+    "file": "../app/src/adb/adb_tunnel.c",
+    "output": "app/scrcpy.p/src_adb_adb_tunnel.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_cli.c.o -MF app/scrcpy.p/src_cli.c.o.d -o app/scrcpy.p/src_cli.c.o -c ../app/src/cli.c",
+    "file": "../app/src/cli.c",
+    "output": "app/scrcpy.p/src_cli.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_clock.c.o -MF app/scrcpy.p/src_clock.c.o.d -o app/scrcpy.p/src_clock.c.o -c ../app/src/clock.c",
+    "file": "../app/src/clock.c",
+    "output": "app/scrcpy.p/src_clock.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_compat.c.o -MF app/scrcpy.p/src_compat.c.o.d -o app/scrcpy.p/src_compat.c.o -c ../app/src/compat.c",
+    "file": "../app/src/compat.c",
+    "output": "app/scrcpy.p/src_compat.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_control_msg.c.o -MF app/scrcpy.p/src_control_msg.c.o.d -o app/scrcpy.p/src_control_msg.c.o -c ../app/src/control_msg.c",
+    "file": "../app/src/control_msg.c",
+    "output": "app/scrcpy.p/src_control_msg.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_controller.c.o -MF app/scrcpy.p/src_controller.c.o.d -o app/scrcpy.p/src_controller.c.o -c ../app/src/controller.c",
+    "file": "../app/src/controller.c",
+    "output": "app/scrcpy.p/src_controller.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_decoder.c.o -MF app/scrcpy.p/src_decoder.c.o.d -o app/scrcpy.p/src_decoder.c.o -c ../app/src/decoder.c",
+    "file": "../app/src/decoder.c",
+    "output": "app/scrcpy.p/src_decoder.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_demuxer.c.o -MF app/scrcpy.p/src_demuxer.c.o.d -o app/scrcpy.p/src_demuxer.c.o -c ../app/src/demuxer.c",
+    "file": "../app/src/demuxer.c",
+    "output": "app/scrcpy.p/src_demuxer.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_device_msg.c.o -MF app/scrcpy.p/src_device_msg.c.o.d -o app/scrcpy.p/src_device_msg.c.o -c ../app/src/device_msg.c",
+    "file": "../app/src/device_msg.c",
+    "output": "app/scrcpy.p/src_device_msg.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_icon.c.o -MF app/scrcpy.p/src_icon.c.o.d -o app/scrcpy.p/src_icon.c.o -c ../app/src/icon.c",
+    "file": "../app/src/icon.c",
+    "output": "app/scrcpy.p/src_icon.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_file_pusher.c.o -MF app/scrcpy.p/src_file_pusher.c.o.d -o app/scrcpy.p/src_file_pusher.c.o -c ../app/src/file_pusher.c",
+    "file": "../app/src/file_pusher.c",
+    "output": "app/scrcpy.p/src_file_pusher.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_fps_counter.c.o -MF app/scrcpy.p/src_fps_counter.c.o.d -o app/scrcpy.p/src_fps_counter.c.o -c ../app/src/fps_counter.c",
+    "file": "../app/src/fps_counter.c",
+    "output": "app/scrcpy.p/src_fps_counter.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_frame_buffer.c.o -MF app/scrcpy.p/src_frame_buffer.c.o.d -o app/scrcpy.p/src_frame_buffer.c.o -c ../app/src/frame_buffer.c",
+    "file": "../app/src/frame_buffer.c",
+    "output": "app/scrcpy.p/src_frame_buffer.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_input_manager.c.o -MF app/scrcpy.p/src_input_manager.c.o.d -o app/scrcpy.p/src_input_manager.c.o -c ../app/src/input_manager.c",
+    "file": "../app/src/input_manager.c",
+    "output": "app/scrcpy.p/src_input_manager.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_keyboard_inject.c.o -MF app/scrcpy.p/src_keyboard_inject.c.o.d -o app/scrcpy.p/src_keyboard_inject.c.o -c ../app/src/keyboard_inject.c",
+    "file": "../app/src/keyboard_inject.c",
+    "output": "app/scrcpy.p/src_keyboard_inject.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_mouse_inject.c.o -MF app/scrcpy.p/src_mouse_inject.c.o.d -o app/scrcpy.p/src_mouse_inject.c.o -c ../app/src/mouse_inject.c",
+    "file": "../app/src/mouse_inject.c",
+    "output": "app/scrcpy.p/src_mouse_inject.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_opengl.c.o -MF app/scrcpy.p/src_opengl.c.o.d -o app/scrcpy.p/src_opengl.c.o -c ../app/src/opengl.c",
+    "file": "../app/src/opengl.c",
+    "output": "app/scrcpy.p/src_opengl.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_options.c.o -MF app/scrcpy.p/src_options.c.o.d -o app/scrcpy.p/src_options.c.o -c ../app/src/options.c",
+    "file": "../app/src/options.c",
+    "output": "app/scrcpy.p/src_options.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_receiver.c.o -MF app/scrcpy.p/src_receiver.c.o.d -o app/scrcpy.p/src_receiver.c.o -c ../app/src/receiver.c",
+    "file": "../app/src/receiver.c",
+    "output": "app/scrcpy.p/src_receiver.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_recorder.c.o -MF app/scrcpy.p/src_recorder.c.o.d -o app/scrcpy.p/src_recorder.c.o -c ../app/src/recorder.c",
+    "file": "../app/src/recorder.c",
+    "output": "app/scrcpy.p/src_recorder.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_scrcpy.c.o -MF app/scrcpy.p/src_scrcpy.c.o.d -o app/scrcpy.p/src_scrcpy.c.o -c ../app/src/scrcpy.c",
+    "file": "../app/src/scrcpy.c",
+    "output": "app/scrcpy.p/src_scrcpy.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_screen.c.o -MF app/scrcpy.p/src_screen.c.o.d -o app/scrcpy.p/src_screen.c.o -c ../app/src/screen.c",
+    "file": "../app/src/screen.c",
+    "output": "app/scrcpy.p/src_screen.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_server.c.o -MF app/scrcpy.p/src_server.c.o.d -o app/scrcpy.p/src_server.c.o -c ../app/src/server.c",
+    "file": "../app/src/server.c",
+    "output": "app/scrcpy.p/src_server.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_version.c.o -MF app/scrcpy.p/src_version.c.o.d -o app/scrcpy.p/src_version.c.o -c ../app/src/version.c",
+    "file": "../app/src/version.c",
+    "output": "app/scrcpy.p/src_version.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_video_buffer.c.o -MF app/scrcpy.p/src_video_buffer.c.o.d -o app/scrcpy.p/src_video_buffer.c.o -c ../app/src/video_buffer.c",
+    "file": "../app/src/video_buffer.c",
+    "output": "app/scrcpy.p/src_video_buffer.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_acksync.c.o -MF app/scrcpy.p/src_util_acksync.c.o.d -o app/scrcpy.p/src_util_acksync.c.o -c ../app/src/util/acksync.c",
+    "file": "../app/src/util/acksync.c",
+    "output": "app/scrcpy.p/src_util_acksync.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_file.c.o -MF app/scrcpy.p/src_util_file.c.o.d -o app/scrcpy.p/src_util_file.c.o -c ../app/src/util/file.c",
+    "file": "../app/src/util/file.c",
+    "output": "app/scrcpy.p/src_util_file.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_intmap.c.o -MF app/scrcpy.p/src_util_intmap.c.o.d -o app/scrcpy.p/src_util_intmap.c.o -c ../app/src/util/intmap.c",
+    "file": "../app/src/util/intmap.c",
+    "output": "app/scrcpy.p/src_util_intmap.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_intr.c.o -MF app/scrcpy.p/src_util_intr.c.o.d -o app/scrcpy.p/src_util_intr.c.o -c ../app/src/util/intr.c",
+    "file": "../app/src/util/intr.c",
+    "output": "app/scrcpy.p/src_util_intr.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_log.c.o -MF app/scrcpy.p/src_util_log.c.o.d -o app/scrcpy.p/src_util_log.c.o -c ../app/src/util/log.c",
+    "file": "../app/src/util/log.c",
+    "output": "app/scrcpy.p/src_util_log.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_net.c.o -MF app/scrcpy.p/src_util_net.c.o.d -o app/scrcpy.p/src_util_net.c.o -c ../app/src/util/net.c",
+    "file": "../app/src/util/net.c",
+    "output": "app/scrcpy.p/src_util_net.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_net_intr.c.o -MF app/scrcpy.p/src_util_net_intr.c.o.d -o app/scrcpy.p/src_util_net_intr.c.o -c ../app/src/util/net_intr.c",
+    "file": "../app/src/util/net_intr.c",
+    "output": "app/scrcpy.p/src_util_net_intr.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_process.c.o -MF app/scrcpy.p/src_util_process.c.o.d -o app/scrcpy.p/src_util_process.c.o -c ../app/src/util/process.c",
+    "file": "../app/src/util/process.c",
+    "output": "app/scrcpy.p/src_util_process.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_process_intr.c.o -MF app/scrcpy.p/src_util_process_intr.c.o.d -o app/scrcpy.p/src_util_process_intr.c.o -c ../app/src/util/process_intr.c",
+    "file": "../app/src/util/process_intr.c",
+    "output": "app/scrcpy.p/src_util_process_intr.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_strbuf.c.o -MF app/scrcpy.p/src_util_strbuf.c.o.d -o app/scrcpy.p/src_util_strbuf.c.o -c ../app/src/util/strbuf.c",
+    "file": "../app/src/util/strbuf.c",
+    "output": "app/scrcpy.p/src_util_strbuf.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_str.c.o -MF app/scrcpy.p/src_util_str.c.o.d -o app/scrcpy.p/src_util_str.c.o -c ../app/src/util/str.c",
+    "file": "../app/src/util/str.c",
+    "output": "app/scrcpy.p/src_util_str.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_term.c.o -MF app/scrcpy.p/src_util_term.c.o.d -o app/scrcpy.p/src_util_term.c.o -c ../app/src/util/term.c",
+    "file": "../app/src/util/term.c",
+    "output": "app/scrcpy.p/src_util_term.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_thread.c.o -MF app/scrcpy.p/src_util_thread.c.o.d -o app/scrcpy.p/src_util_thread.c.o -c ../app/src/util/thread.c",
+    "file": "../app/src/util/thread.c",
+    "output": "app/scrcpy.p/src_util_thread.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_tick.c.o -MF app/scrcpy.p/src_util_tick.c.o.d -o app/scrcpy.p/src_util_tick.c.o -c ../app/src/util/tick.c",
+    "file": "../app/src/util/tick.c",
+    "output": "app/scrcpy.p/src_util_tick.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_sys_unix_file.c.o -MF app/scrcpy.p/src_sys_unix_file.c.o.d -o app/scrcpy.p/src_sys_unix_file.c.o -c ../app/src/sys/unix/file.c",
+    "file": "../app/src/sys/unix/file.c",
+    "output": "app/scrcpy.p/src_sys_unix_file.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_sys_unix_process.c.o -MF app/scrcpy.p/src_sys_unix_process.c.o.d -o app/scrcpy.p/src_sys_unix_process.c.o -c ../app/src/sys/unix/process.c",
+    "file": "../app/src/sys/unix/process.c",
+    "output": "app/scrcpy.p/src_sys_unix_process.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_usb_aoa_hid.c.o -MF app/scrcpy.p/src_usb_aoa_hid.c.o.d -o app/scrcpy.p/src_usb_aoa_hid.c.o -c ../app/src/usb/aoa_hid.c",
+    "file": "../app/src/usb/aoa_hid.c",
+    "output": "app/scrcpy.p/src_usb_aoa_hid.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_usb_hid_keyboard.c.o -MF app/scrcpy.p/src_usb_hid_keyboard.c.o.d -o app/scrcpy.p/src_usb_hid_keyboard.c.o -c ../app/src/usb/hid_keyboard.c",
+    "file": "../app/src/usb/hid_keyboard.c",
+    "output": "app/scrcpy.p/src_usb_hid_keyboard.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_usb_hid_mouse.c.o -MF app/scrcpy.p/src_usb_hid_mouse.c.o.d -o app/scrcpy.p/src_usb_hid_mouse.c.o -c ../app/src/usb/hid_mouse.c",
+    "file": "../app/src/usb/hid_mouse.c",
+    "output": "app/scrcpy.p/src_usb_hid_mouse.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_usb_scrcpy_otg.c.o -MF app/scrcpy.p/src_usb_scrcpy_otg.c.o.d -o app/scrcpy.p/src_usb_scrcpy_otg.c.o -c ../app/src/usb/scrcpy_otg.c",
+    "file": "../app/src/usb/scrcpy_otg.c",
+    "output": "app/scrcpy.p/src_usb_scrcpy_otg.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_usb_screen_otg.c.o -MF app/scrcpy.p/src_usb_screen_otg.c.o.d -o app/scrcpy.p/src_usb_screen_otg.c.o -c ../app/src/usb/screen_otg.c",
+    "file": "../app/src/usb/screen_otg.c",
+    "output": "app/scrcpy.p/src_usb_screen_otg.c.o"
+  },
+  {
+    "directory": "/Users/ianadams/Documents/work/vanished/scrcpy/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/5.1.2_5/include -I/usr/local/include -I/usr/local/include/SDL2 -I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0 -flto -fcolor-diagnostics -DNDEBUG -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_usb_usb.c.o -MF app/scrcpy.p/src_usb_usb.c.o.d -o app/scrcpy.p/src_usb_usb.c.o -c ../app/src/usb/usb.c",
+    "file": "../app/src/usb/usb.c",
+    "output": "app/scrcpy.p/src_usb_usb.c.o"
+  }
+]

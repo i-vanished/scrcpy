@@ -1,0 +1,374 @@
+Build started at 2023-02-24T09:42:39.482140
+Main binary: /usr/local/opt/python@3.11/bin/python3.11
+Build Options: -Db_lto=true -Dbuildtype=release -Dstrip=True
+Python system: Darwin
+The Meson build system
+Version: 1.0.0
+Source dir: /Users/ianadams/Documents/work/vanished/scrcpy
+Build dir: /Users/ianadams/Documents/work/vanished/scrcpy/x
+Build type: native build
+Project name: scrcpy
+Project version: 1.25
+-----
+Detecting compiler via: cc --version
+compiler returned <Popen: returncode: 0 args: ['cc', '--version']>
+compiler stdout:
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: x86_64-apple-darwin21.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+compiler stderr:
+
+Running command: cc -E -dM -
+-----
+Detecting linker via: cc -Wl,--version
+linker returned <Popen: returncode: 1 args: ['cc', '-Wl,--version']>
+linker stdout:
+
+linker stderr:
+ld: unknown option: --version
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+-----
+Detecting Apple linker via: cc -Wl,-v
+linker stdout:
+
+linker stderr:
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:29:01 May 17 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (clang 13.1.6 "Apple clang version 13.1.6 (clang-1316.0.21.2.5)")
+C linker for the host machine: cc ld64 764
+detecting CPU family based on trial='x86_64'
+-----
+Detecting compiler via: cc --version
+compiler returned <Popen: returncode: 0 args: ['cc', '--version']>
+compiler stdout:
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: x86_64-apple-darwin21.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+compiler stderr:
+
+Running command: cc -E -dM -
+-----
+Detecting linker via: cc -Wl,--version
+linker returned <Popen: returncode: 1 args: ['cc', '-Wl,--version']>
+linker stdout:
+
+linker stderr:
+ld: unknown option: --version
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+-----
+Detecting Apple linker via: cc -Wl,-v
+linker stdout:
+
+linker stderr:
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:29:01 May 17 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (clang 13.1.6 "Apple clang version 13.1.6 (clang-1316.0.21.2.5)")
+C linker for the build machine: cc ld64 764
+detecting CPU family based on trial='x86_64'
+detecting CPU family based on trial='x86_64'
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Pkg-config binary for 1 is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/local/bin/pkg-config (0.29.2)
+Determining dependency 'libavformat' with pkg-config executable '/usr/local/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --modversion libavformat` -> 0
+59.27.100
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --cflags libavformat` -> 0
+-I/usr/local/Cellar/ffmpeg/5.1.2_5/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libavformat` -> 0
+-L/usr/local/Cellar/ffmpeg/5.1.2_5/lib -lavformat
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libavformat` -> 0
+-L/usr/local/Cellar/ffmpeg/5.1.2_5/lib -lavformat
+detecting CPU family based on trial='x86_64'
+Running compile:
+Working directory:  /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpozg5oy3t
+Command line:  cc /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpozg5oy3t/testfile.c -o /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpozg5oy3t/output.exe -O0 -Werror=implicit-function-declaration 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpn59hqiye
+Command line:  cc /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpn59hqiye/testfile.c -o /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpn59hqiye/output.obj -c -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ programs: =/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+libraries: =/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6
+
+Compiler stderr:
+ 
+Run-time dependency libavformat found: YES 59.27.100
+Pkg-config binary for 1 is cached.
+Determining dependency 'libavcodec' with pkg-config executable '/usr/local/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --modversion libavcodec` -> 0
+59.37.100
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --cflags libavcodec` -> 0
+-I/usr/local/Cellar/ffmpeg/5.1.2_5/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libavcodec` -> 0
+-L/usr/local/Cellar/ffmpeg/5.1.2_5/lib -lavcodec
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libavcodec` -> 0
+-L/usr/local/Cellar/ffmpeg/5.1.2_5/lib -lavcodec
+Run-time dependency libavcodec found: YES 59.37.100
+Pkg-config binary for 1 is cached.
+Determining dependency 'libavutil' with pkg-config executable '/usr/local/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --modversion libavutil` -> 0
+57.28.100
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --cflags libavutil` -> 0
+-I/usr/local/Cellar/ffmpeg/5.1.2_5/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libavutil` -> 0
+-L/usr/local/Cellar/ffmpeg/5.1.2_5/lib -lavutil
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libavutil` -> 0
+-L/usr/local/Cellar/ffmpeg/5.1.2_5/lib -lavutil
+Run-time dependency libavutil found: YES 57.28.100
+Pkg-config binary for 1 is cached.
+Determining dependency 'sdl2' with pkg-config executable '/usr/local/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --modversion sdl2` -> 0
+2.26.3
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --cflags sdl2` -> 0
+-D_THREAD_SAFE -I/usr/local/include -I/usr/local/include/SDL2
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs sdl2` -> 0
+-L/usr/local/lib -lSDL2
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs sdl2` -> 0
+-L/usr/local/lib -lSDL2
+Run-time dependency sdl2 found: YES 2.26.3
+Pkg-config binary for 1 is cached.
+Determining dependency 'libusb-1.0' with pkg-config executable '/usr/local/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --modversion libusb-1.0` -> 0
+1.0.26
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --cflags libusb-1.0` -> 0
+-I/usr/local/Cellar/libusb/1.0.26/include/libusb-1.0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libusb-1.0` -> 0
+-L/usr/local/Cellar/libusb/1.0.26/lib -lusb-1.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libusb-1.0` -> 0
+-L/usr/local/Cellar/libusb/1.0.26/lib -lusb-1.0
+Run-time dependency libusb-1.0 found: YES 1.0.26
+Running compile:
+Working directory:  /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmp9mo0re_g
+Command line:  cc /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmp9mo0re_g/testfile.c -o /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmp9mo0re_g/output.exe -O0 -Werror=implicit-function-declaration -std=c11 -Wl,-no_weak_imports 
+
+Code:
+ 
+        #define strdup meson_disable_define_of_strdup
+        
+        #include <limits.h>
+        #undef strdup
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char strdup (void);
+        
+        #if defined __stub_strdup || defined __stub___strdup
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return strdup ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "strdup" : YES 
+Running compile:
+Working directory:  /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpzloupl69
+Command line:  cc /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpzloupl69/testfile.c -o /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpzloupl69/output.exe -O0 -Werror=implicit-function-declaration -std=c11 -Wl,-no_weak_imports 
+
+Code:
+ 
+        #define asprintf meson_disable_define_of_asprintf
+        
+        #include <limits.h>
+        #undef asprintf
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char asprintf (void);
+        
+        #if defined __stub_asprintf || defined __stub___asprintf
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return asprintf ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpzloupl69/testfile.c:17:28: warning: format string missing [-Wformat]
+          return asprintf ();
+                 ~~~~~~~~  ^
+1 warning generated.
+
+Checking for function "asprintf" : YES 
+Running compile:
+Working directory:  /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpkxk7nxoa
+Command line:  cc /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpkxk7nxoa/testfile.c -o /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpkxk7nxoa/output.exe -O0 -Werror=implicit-function-declaration -std=c11 -Wl,-no_weak_imports 
+
+Code:
+ 
+        #define vasprintf meson_disable_define_of_vasprintf
+        
+        #include <limits.h>
+        #undef vasprintf
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char vasprintf (void);
+        
+        #if defined __stub_vasprintf || defined __stub___vasprintf
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return vasprintf ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpkxk7nxoa/testfile.c:17:29: warning: format string missing [-Wformat]
+          return vasprintf ();
+                 ~~~~~~~~~  ^
+1 warning generated.
+
+Checking for function "vasprintf" : YES 
+Running compile:
+Working directory:  /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpqkwwh1lv
+Command line:  cc /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpqkwwh1lv/testfile.c -o /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpqkwwh1lv/output.obj -c -O0 -Werror=implicit-function-declaration -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument -std=c11 
+
+Code:
+ 
+        #include <sys/socket.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef SOCK_CLOEXEC
+                SOCK_CLOEXEC;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /Users/ianadams/Documents/work/vanished/scrcpy/x/meson-private/tmpqkwwh1lv/testfile.c:6:17: error: use of undeclared identifier 'SOCK_CLOEXEC'
+                SOCK_CLOEXEC;
+                ^
+1 error generated.
+
+Header "sys/socket.h" has symbol "SOCK_CLOEXEC" : NO 
+Configuring config.h using configuration
+detecting CPU family based on trial='x86_64'
+Program ./scripts/build-wrapper.sh found: YES (/Users/ianadams/Documents/work/vanished/scrcpy/server/./scripts/build-wrapper.sh)
+Build targets in project: 3
+
+scrcpy 1.25
+
+  User defined options
+    buildtype: release
+    strip    : True
+    b_lto    : true
+
+Found ninja-1.11.1 at /usr/local/bin/ninja
+Failed to guess install tag for /usr/local/share/scrcpy/scrcpy-server
+Failed to guess install tag for /usr/local/share/icons/hicolor/256x256/apps/scrcpy.png
+Failed to guess install tag for /usr/local/share/zsh/site-functions/_scrcpy
+Failed to guess install tag for /usr/local/share/bash-completion/completions/scrcpy
